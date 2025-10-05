@@ -389,7 +389,7 @@ body {
     width: 280px;
     height: 380px;
     border-radius: 20px;
-    clip-path: path("M36% 0 L54% 15% L100% 15% L100% 66% L100% 100% L49% 100% L49% 87% L0 87% L0 35% L0 0 Z");
+    clip-path: polygon(36% 0, 54% 15%, 100% 15%, 100% 66%, 100% 100%, 49% 100%, 49% 87%, 0 87%, 0% 35%, 0 0);
 }
 .purple-bg {
     background: linear-gradient(135deg, #8b00ff 0%, #5500cc 100%);
