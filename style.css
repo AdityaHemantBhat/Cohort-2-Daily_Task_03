@@ -59,12 +59,12 @@ body {
 
 #nav .nav-center {
     border: 1px solid #1f1f1f;
-    border-radius: 25px;
+    border-radius: 50px;
     background-color: #1f1f1f;
     display: flex;
     align-items: center;
     gap: 70px;
-    padding: 20px 50px;
+    padding: 20px 40px;
 }
 
 #nav .nav-center a {
