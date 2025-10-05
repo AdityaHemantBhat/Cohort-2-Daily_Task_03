@@ -30,7 +30,7 @@ body {
 #first-side {
     width: 100%;
     min-height: 100vh;
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
     background: linear-gradient(to bottom, #111, rgba(26, 26, 26, 0.5));
     position: relative;
 }
@@ -203,7 +203,6 @@ body {
 }
 
 #middle-img {
-    padding: 80px;
     text-align: center;
 }
 
@@ -571,6 +570,9 @@ body {
         padding: 20px;
         font-size: 15px;
     }
+    #center-text{
+        padding-top: 20px;
+    }
     #center-text h1:nth-of-type(1),
     #center-text h1:nth-of-type(2) {
         font-size: 5vw;
@@ -590,7 +592,9 @@ body {
     #second-side #arrow {
         top: 20vw;
     }
-    
+    #middle-img{
+        margin-top:40px;
+    }
     #left-cont {
         top: 35vw;
     }
@@ -611,7 +615,7 @@ body {
     }
 
     #right-cont {
-        top: 35vw;
+        top: 26vw;
         right: 5vw;
     }
 
