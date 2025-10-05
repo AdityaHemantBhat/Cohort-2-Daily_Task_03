@@ -164,7 +164,7 @@ body {
 }
 
 #arrow img {
-    width: 90px;
+    width: 200px;
 }
 
 #left-cont {
@@ -582,6 +582,11 @@ body {
     #arrow{
         top: 34vw;
     }
+    #arrow img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
     #second-side #arrow {
         top: 20vw;
     }
@@ -750,7 +755,7 @@ body {
     #left-cont p br {
         display: none;
     }
-
+    
     #middle-img {
         padding: 40px 20px;
     }
