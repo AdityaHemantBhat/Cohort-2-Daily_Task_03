@@ -484,7 +484,7 @@ body {
 
 .price {
     position: absolute;
-    right: 11vw;
+    right: 11.5vw;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -652,8 +652,8 @@ body {
     }
 
     .card-image img {
-        width: 240px;
-        height: 240px;
+        width: 250px;
+        height: 250px;
     }
     .timer{
         margin-top: -10px;
@@ -1000,8 +1000,8 @@ body {
     }
 
     .card-image img {
-        width: 200px;
-        height: 200px;
+        width: 235px;
+        height: 235px;
     }
 
     .price {
@@ -1051,8 +1051,8 @@ body {
     }
 
     .card-image img {
-        width: 180px;
-        height: 180px;
+        width: 220px;
+        height: 220px;
     }
 
     .bid-btn {
@@ -1127,8 +1127,8 @@ body {
     }
 
     .card-image img {
-        width: 300px;
-        height: 300px;
+        width: 295px;
+        height: 295px;
     }
 
     .bid-btn {
