@@ -186,6 +186,16 @@ body {
     flex-direction: column;
     gap: 30px;
 }
+#left-cont .inner-circle {
+    padding: 5px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(212, 249, 3, 0.199), #0f0f0f, #0f0f0f, #0f0f0f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #left-cont .circle-img {
     position: relative;
@@ -198,7 +208,7 @@ body {
 #left-cont .circle-img img {
     position: absolute;
     top: 1vw;
-    left: 1.3vw;
+    left: 1vw;
     height: 120px;
 }
 
@@ -391,6 +401,7 @@ body {
     border-radius: 20px;
     clip-path: polygon(36% 0, 54% 15%, 100% 15%, 100% 66%, 100% 100%, 49% 100%, 49% 87%, 0 87%, 0% 35%, 0 0);
 }
+
 .purple-bg {
     background: linear-gradient(135deg, #8b00ff 0%, #5500cc 100%);
 }
@@ -566,13 +577,16 @@ body {
     #nav .nav-center a {
         font-size: 16px;
     }
-    #nav .nav-right button{
+
+    #nav .nav-right button {
         padding: 20px;
         font-size: 15px;
     }
-    #center-text{
+
+    #center-text {
         padding-top: 20px;
     }
+
     #center-text h1:nth-of-type(1),
     #center-text h1:nth-of-type(2) {
         font-size: 5vw;
@@ -581,24 +595,30 @@ body {
     #center-text h1 img {
         height: 32px;
     }
-    #arrow{
+
+    #arrow {
         top: 34vw;
     }
-    #arrow img{
+
+    #arrow img {
         width: 100px;
         height: 100px;
         object-fit: cover;
     }
+
     #second-side #arrow {
         top: 20vw;
     }
-    #middle-img{
-        margin-top:40px;
+
+    #middle-img {
+        margin-top: 40px;
     }
+
     #left-cont {
         top: 35vw;
     }
-    #left-cont .circle{
+
+    #left-cont .circle {
         margin-left: 20px;
         margin-top: 50px;
     }
@@ -615,7 +635,7 @@ body {
     }
 
     #right-cont {
-        top: 26vw;
+        top: 30vw;
         right: 5vw;
     }
 
@@ -655,12 +675,15 @@ body {
         width: 250px;
         height: 250px;
     }
-    .timer{
+
+    .timer {
         margin-top: -10px;
     }
-    .price{
+
+    .price {
         right: 15vw;
     }
+
     .bid-btn {
         width: 240px;
     }
@@ -759,7 +782,7 @@ body {
     #left-cont p br {
         display: none;
     }
-    
+
     #middle-img {
         padding: 40px 20px;
     }
