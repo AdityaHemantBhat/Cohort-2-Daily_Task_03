@@ -399,9 +399,10 @@ body {
     width: 280px;
     height: 380px;
     border-radius: 20px;
-    clip-path: polygon(36% 0, 54% 15%, 100% 15%, 100% 66%, 100% 100%, 49% 100%, 49% 87%, 0 87%, 0% 35%, 0 0);
+    clip-path: path(
+    "M 0,20 A 20,20 0,0,1 20,0 L 115,0 L 175,45 L 265,45 A 20,20 0,0,1 285,65 L 285,365 A 20,20 0,0,1 265,385 L 175,385 L 175,360 A 15,15 0,0,0 160,345 L 0,345 L 0,20 Z"
+  );
 }
-
 .purple-bg {
     background: linear-gradient(135deg, #8b00ff 0%, #5500cc 100%);
 }
@@ -479,6 +480,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index:0;
 }
 
 .card-image img {
