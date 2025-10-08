@@ -8,7 +8,7 @@ Welcome to **Daily Challenge 03**! This project is a pixel-perfect, responsive H
 
 | Original Design | My Clone |
 |:--------------:|:--------:|
-| ![Original Design](./Challenge_03.jpg) | ![Clone](./Clone_Challenge_03.png) |
+| <img src="./Challenge_03.jpg" alt="Original Design" width="350" height="600" /> | <img src="./Clone_Challenge_03.png" alt="Clone" width="350" height="600" /> |
 
 ---
 
